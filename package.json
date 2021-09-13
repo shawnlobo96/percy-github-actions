@@ -1,0 +1,23 @@
+{
+  "name": "percy-github-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "npx percy snapshot page.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawnlobo96/percy-github-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shawnlobo96/percy-github-actions/issues"
+  },
+  "homepage": "https://github.com/shawnlobo96/percy-github-actions#readme",
+  "dependencies": {
+    "@percy/cli": "^1.0.0-beta.67"
+  }
+}
