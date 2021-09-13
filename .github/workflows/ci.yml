@@ -7,7 +7,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
       - name: Build
-        run: npx @percy/cli snapshot ./pages.yml
+        run: npx percy snapshot ./pages.yml
         working-directory: ./
         env:
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
