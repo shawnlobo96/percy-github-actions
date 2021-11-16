@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/shawnlobo96/percy-github-actions#readme",
   "dependencies": {
-    "@percy/cli": "^1.0.0-beta.67"
+    "@percy/cli": "latest"
   }
 }
