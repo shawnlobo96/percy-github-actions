@@ -4,7 +4,7 @@
   "description": "",
   "main": "test.js",
   "scripts": {
-    "test": "npx percy snapshot pages.yml"
+    "test": "npx percy snapshot snapshot.js"
   },
   "repository": {
     "type": "git",
